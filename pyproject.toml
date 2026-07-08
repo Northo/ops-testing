@@ -7,7 +7,9 @@ authors = [
     { name = "Thorvald Molthe Ballestad", email = "thorvald@simula.no" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "requests==2.31.0",
+]
 
 [project.scripts]
 ops-testing = "ops_testing:main"
